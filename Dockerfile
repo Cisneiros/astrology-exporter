@@ -1,4 +1,4 @@
-FROM node:10
+FROM knjcode/rpi-node-armv7:latest
 
 WORKDIR /app
 COPY . /app
